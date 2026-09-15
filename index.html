@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Ritual</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://use.typekit.net/tyx0ola.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="img/logo.PNG" alt="The Ritual" class="header-logo" />
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="gallery.html">Gallery</a>
+        <a href="artists.html">Artists</a>
+        <a href="music.html">Music</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="nav-discord-btn" target="_blank" rel="noopener noreferrer">Join our Discord community</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-top-fade"></div>
+    <div class="hero-overlay"></div>
+    <button class="hero-arrow" id="heroArrow" aria-label="Scroll down">
+      <svg viewBox="0 0 40 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="20" y1="0" x2="20" y2="40" stroke="white" stroke-width="1" opacity="0.7"/>
+        <line x1="20" y1="48" x2="8" y2="34" stroke="white" stroke-width="1" opacity="0.7"/>
+        <line x1="20" y1="48" x2="32" y2="34" stroke="white" stroke-width="1" opacity="0.7"/>
+        <line x1="16" y1="4" x2="20" y2="0" stroke="white" stroke-width="0.6" opacity="0.4"/>
+        <line x1="24" y1="4" x2="20" y2="0" stroke="white" stroke-width="0.6" opacity="0.4"/>
+      </svg>
+    </button>
+    <div class="section-fade bottom"></div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video-section" id="video-section">
+    <div class="section-fade top"></div>
+    <video id="mainVideo" src="img/video.mp4" loop playsinline preload="metadata"></video>
+    <button class="video-play-btn" id="videoPlayBtn" aria-label="Play / Pause">
+      <span class="btn-icon play">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+      <span class="btn-icon pause">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+      </span>
+    </button>
+    <div class="section-fade bottom"></div>
+  </section>
+
+  <!-- DISCORD -->
+  <section class="discord-section" id="discord">
+    <div class="discord-inner">
+      <div class="discord-image">
+        <img src="img/discord_join.png" alt="Join our Discord community" />
+      </div>
+      <div class="discord-content">
+        <h2 class="section-title">Join our Discord community</h2>
+        <div class="rule"></div>
+        <a href="#" class="btn-spark" id="btnDiscordJoin" target="_blank" rel="noopener noreferrer">
+          <span>Join now</span>
+          <canvas class="spark-canvas" id="sparkDiscordJoin"></canvas>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOME -->
+  <section class="about-section" id="home">
+    <div class="section-fade top"></div>
+    <div class="about-inner">
+      <div class="about-text">
+        <h2 class="section-title">About Us</h2>
+        <div class="rule"></div>
+        <p>The Ritual is a multi-media art experience and creative platform designed by Tom Visnes musically, conceptually and story-wise.</p>
+        <p>He has created a universe expressed through many different art forms and collaborated with Mothmeister, Vincent Castiglia and Jolie Perez, who physically crafted a world of characters and tribes.</p>
+        <p>The Ritual formed a partnership with Rain Games with the intention of creating a cinematic video game and invites YOU to be an active participant in expanding its story and realms.</p>
+        <p>For more information go to <strong>the Order ov the Seven Rays</strong>.</p>
+        <p class="about-highlight">THIS IS NOT A CREATED UNIVERSE. IT IS A CREATING ONE.</p>
+        <a href="contact.html" class="btn-spark">
+          <span>Contact Us</span>
+          <canvas class="spark-canvas" id="sparkContact"></canvas>
+        </a>
+      </div>
+    </div>
+    <div class="section-fade bottom"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="img/logo.PNG" alt="The Ritual" class="footer-logo" />
+      <div class="footer-copy">
+        <p>© 2026 The Ritual.</p>
+        <p class="footer-dev">Developed by Álefe Paes Leme</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" class="social-btn" aria-label="X">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

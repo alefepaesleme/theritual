@@ -1,0 +1,7 @@
+# robots.txt — The Ritual
+# Localização: raiz do projeto (mesmo nível que index.html)
+
+User-agent: *
+Allow: /
+
+Sitemap: https://the-ritual.org/sitemap.xml
